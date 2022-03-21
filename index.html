@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ <link href="//db.onlinewebfonts.com/c/a637cb34eb9fc1f1da00e923d0272226?family=SoleilW01-SemiBold" rel="stylesheet" type="text/css"/> 
+  
+  <style>
+  body {
+   background: #FFFCEF;
+}
+.h1{
+position: absolute;
+width: 233px;
+height: 35px;
+left: 7px;
+top: 134px;
+font-family: 'SoleilW01-SemiBold';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 35px;
+}
+button{
+background: #FFFFFF !important;
+border: 1px solid #B8B298 !important;
+box-sizing: border-box;
+border-radius: 8px;
+height: 44px;
+top:115px;
+}
+#select{
+left:138px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #606060;
+}
+#college{
+left:178px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #606060;
+}
+#location{
+left:216px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #606060;
+}
+
+#topareas{
+margin-top:-20px;
+margin-left:24px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #606060;
+}
+#card1button1{
+top:-24px;
+left:143px;
+width: 294px;
+height: 30px;
+background: #FFFFFF !important;
+border: 1px solid rgba(0, 0, 0, 0.1) !important;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: 'SoleilW01-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #606060 !important;
+}
+#card1button2{
+top:19px;
+left:143px;
+position: absolute;
+width: 218px;
+height: 30px;
+background: #FFFFFF !important;
+border: 1px solid rgba(0, 0, 0, 0.1) !important;
+box-sizing: border-box;
+border-radius: 4px;
+font-family: 'SoleilW01-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #606060 !important;
+}
+#card1button3{
+position: absolute;
+width: 195px;
+height: 27px;
+left: 143px;
+top: 66px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+background: #FFFFFF !important;
+border: 1px solid rgba(0, 0, 0, 0.1) !important;
+box-sizing: border-box;
+border-radius: 4px;
+color: #606060 !important;
+}
+
+#card1{
+position: absolute;
+width: 558px;
+height: 339px;
+left: 145px;
+top: 293px;
+background: #FFFFFF !important;
+border: 1px solid #F2EEDA !important;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#card2{
+position: absolute;
+width: 558px;
+height: 339px;
+left: 727px;
+top: 293px;
+background: #FFFFFF !important;
+border: 1px solid #F2EEDA !important;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#card3{
+width: 558px;
+height: 339px;
+left: -582px;
+top: 116px;
+background: #FFFFFF !important;
+border: 1px solid #F2EEDA !important;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#card4{
+width: 558px;
+height: 339px;
+left: 580px;
+top: -300px;
+background: #FFFFFF !important;
+border: 1px solid #F2EEDA !important;
+box-sizing: border-box;
+border-radius: 16px;
+}
+#card5{
+position: absolute;
+width: 558px;
+height: 238px;
+left:-582px;
+top: 350px;
+background: #FFFFFF !important;
+border: 1px solid #F2EEDA !important;
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+#card-img{
+width: 103px;
+height: 115.48px;
+margin-left:24px;
+margin-top:20.1px;
+}
+.card-title{
+width: 312px;
+height: 29px;
+margin-left:143px;
+margin-top: -115.48px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #282828;
+}
+.card-subtitle{
+margin-top:16px;
+margin-left:143px;
+height: 19px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+.card-footer{
+width: 80px;
+height: 17px;
+margin-left: 455px;
+top: 306px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+background: white;
+}
+p{
+margin-top:16px;
+margin-left:143px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+
+  </style>
+  </head>
+  <body>
+  <!-- A grey horizontal navbar that becomes vertical on small screens -->
+<nav class="navbar navbar-expand-sm bg-white navbar-light  ">
+  <div class="container-fluid">
+  <div class="collapse navbar-collapse justify-content-end">
+  <div class="p-3.75">
+    <!-- Links -->
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT US</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">ASSIGNMENTS</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">INTERNSHIP</a>
+      </li>
+    </ul>
+	</div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-sm bg-white navbar-light  ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo1.png" alt="Avtaar Logo" style="position:absolute; width:60px; height:62px; top:-41px; left:224px; " > 
+    </a>
+  </div>
+</nav>
+<p class="h1">Recruiter Dashboard</p>
+<div class="dropdown">
+<div class="btn position-relative">
+
+  <button type="button" class="btn dropdown-toggle position-relative" data-bs-toggle="dropdown" id="select">
+    Select Career 
+  </button>
+  <ul class="dropdown-menu">  
+    <li><a class="dropdown-item" href="#">
+	<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Fullstack Developer
+  </label>
+	</div>
+	<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Software Development lifecycle
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Programming
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Mobile app development
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Github version control
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Backend
+  </label>
+</div>
+	</a>
+	</li>
+    <li><a class="dropdown-item" href="#"><div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    UX Designer
+  </label>
+  <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Wireframing
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Figma
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    User research
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Problem solving
+  </label>
+</div>
+</div></a>
+	</li>
+	<button type="button" class="btn " style="margin-left:14px;">clear</button>
+     <button type="button" class="btn" style="background: linear-gradient(90deg, #7A62F8 0%, #630BFF 100%) !important;
+border-radius: 8px; margin-left:106px;width: 83px;
+height: 42px;">Apply</button>
+    
+  </ul>
+</div>
+<button type="button" class="btn dropdown-toggle position-relative" data-bs-toggle="dropdown" id="college">
+    College Year
+  </button>
+  <button type="button" class="btn dropdown-toggle position-relative " data-bs-toggle="dropdown" id="location">
+    Location
+  </button>
+  </div>
+  </div>
+  <div class="card" id="card1">
+    <img src="images/image.png" id="card-img" alt="Card image">
+	
+    <div class="card-body">
+      <h5 class="card-title">Krishnaswamy Subramanium</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Aspiring UX Designer</h6>
+    <p class="card-text" style="color:white">B</p>
+      
+      <hr style="width: 558px;height: 0px;border: 1px solid #F2EEDA !important;">
+	</div>
+    <div class="card-body">
+<h5 class="card-title" id="topareas">Top Areas </h5>
+ <div class=" btn-group-vertical gap-3">
+  <button type="button" class="btn " id="card1button1">Software Development Life Cycle (SDLC)</button>
+  <button type="button" class="btn " id="card1button2">Software dev methodologies</button>
+  <button type="button" class="btn " id="card1button3">Git version control, Github</button>
+</div>
+    </div>
+    <a href="#" class="btn">
+    <div class="card-footer">
+      <small class="text-muted">& x more</small>
+    </div>
+    </a>
+  </div>
+  <div class="card" id="card2" >
+    <img src="images/image.png" id="card-img" alt="Card image">
+    <div class="card-body">
+    
+      <h5 class="card-title">Larry David</h5>
+	  <h6 class="card-subtitle mb-2 text-muted">AspiringFullstack Developer</h6>
+	  <p class="card-text">BTech, 4th Year</p>
+      <p class="card-text">Hyderabad </p>
+	  <hr style="width: 558px;height: 0px;border: 1px solid #F2EEDA !important;">
+    </div>
+     <div class="card-body">
+<h5 class="card-title" id="topareas">Top Areas </h5>
+ <div class=" btn-group-vertical gap-3" >
+  <button type="button" class="btn " id="card1button1">Software Development Life Cycle (SDLC)</button>
+  <button type="button" class="btn " id="card1button2">Software dev methodologies</button>
+  <button type="button" class="btn " id="card1button3">Git version control,Github</button>
+</div>
+    </div>
+  <div class="card" id="card3" >
+    <img src="images/image.png" id="card-img" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">Jo Dsouza</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Aspiring UX Designer</h6>
+      <p class="card-text">BTech, 3rd Year</p>
+      <p class="card-text">Mumbai </p>
+      <hr style="width: 558px;height: 0px;border: 1px solid #F2EEDA !important;">
+    </div>
+    <div class="card-body">
+<h5 class="card-title" id="topareas">Top Areas </h5>
+ <div class=" btn-group-vertical gap-3" >
+  <button type="button" class="btn " id="card1button1">Software Development Life Cycle (SDLC)</button>
+  <button type="button" class="btn " id="card1button2">Software dev methodologies</button>
+  <button type="button" class="btn " id="card1button3">Git version control,Github</button>
+</div>
+    </div>
+	<div class="card-footer">
+      <small class="text-muted">& x more</small>
+    </div>
+	 <div class="card" id="card4" >
+    <img src="images/image.png" id="card-img" alt="Card image">
+    
+    <div class="card-body">
+      <h5 class="card-title">jo Dsouza</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Aspiring UX Designer</h6>
+      <p class="card-text">BTech, 3rd Year</p>
+      <p class="card-text">Mumbai </p>
+      <hr style="width: 558px;height: 0px;border: 1px solid #F2EEDA !important;">
+    </div>
+    <div class="card-body">
+<h5 class="card-title" id="topareas">Top Areas </h5>
+ <div class=" btn-group-vertical gap-3" >
+  <button type="button" class="btn " id="card1button1">Software Development Life Cycle (SDLC)</button>
+</div>
+    </div>
+    <div class="card" id="card5" >
+    <img src="images/image.png" id="card-img" alt="Card image">
+    
+    <div class="card-body">
+      <h5 class="card-title">jo Dsouza</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Aspiring UX Designer</h6>
+      <p class="card-text">BTech, 3rd Year</p>
+      <p class="card-text">Mumbai </p>
+      <hr style="width: 558px;height: 0px;border: 1px solid #F2EEDA !important;">
+    </div>
+    <div class="card-body">
+<h5 class="card-title" id="topareas">Top Areas </h5>
+</div>
+  </body>
+</html>
